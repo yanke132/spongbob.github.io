@@ -199,9 +199,11 @@ section {
     top: 0;
     left: 0;
     height: 100%;
-    z-index: 1;
-    background-image: url(../img/dot.gif);
+    z-index: 2;
+    background-image: url(../img/family.jpg);
     opacity: 0.06;
+   
+    opacity: 0.2;
 }
 
 .center {
@@ -402,6 +404,7 @@ a {
         text-align: center;
         margin: 15px 0 15px;
         font-size: 14px;
+     
     }
     .module-description {
         text-align: left !important;
@@ -711,6 +714,8 @@ ul.tags li a:hover {
     display: block;
     padding: 20px;
     margin-left: 50px;
+  
+
 }
 
 .box-primary-nav-trigger {
@@ -737,6 +742,7 @@ ul.tags li a:hover {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
+ 
 }
 
 .box-primary-nav-trigger .box-menu-icon::before,
@@ -825,6 +831,7 @@ ul.tags li a:hover {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     list-style: none;
+    color: white
 }
 
 .box-primary-nav li {
@@ -835,6 +842,7 @@ ul.tags li a:hover {
     -moz-osx-font-smoothing: grayscale;
     margin: .2em 0;
     text-transform: capitalize;
+    color: white;
 }
 
 .box-primary-nav a {
@@ -847,6 +855,8 @@ ul.tags li a:hover {
     text-decoration: none;
     letter-spacing: 2px;
 }
+
+
 
 .box-primary-nav a:focus {
     outline: none;
@@ -1438,7 +1448,8 @@ footer a:hover {
 
 .features {
     padding: 100px 0 100px 0;
-    background-color: #ffeedb;
+    background-color:  #1c95db88;
+   
     border-top: 15px double #fff;
 }
 
@@ -1595,7 +1606,7 @@ footer a:hover {
 }
 
 .portfolio_item .portfolio_item_hover {
-    cursor: url(../img/read.png), auto;
+    cursor: url(../img/mouse.png), auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -1677,7 +1688,7 @@ footer a:hover {
 }
 
 .process-numbers {
-    color: #1c95db88;
+    color: #007bffad;
     font-weight: 700;
     font-size: 150px;
     text-transform: uppercase;
@@ -1748,7 +1759,7 @@ footer a:hover {
 }
 
 .member-thumb:hover .overlay {
-    cursor: url(../img/eye.png), auto;
+    cursor: url(../img/mouse.png), auto;
     opacity: 0.8;
     -webkit-transform: rotateY(0deg) scale(1, 1);
     -moz-transform: rotateY(0deg) scale(1, 1);
@@ -1894,6 +1905,7 @@ footer a:hover {
 
 #owl-demo .item {
     margin: 3px;
+
 }
 
 #owl-demo .item img {
@@ -1915,8 +1927,9 @@ footer a:hover {
 }
 
 .flexslider .avatar {
-    width: 82px;
-    height: 82px;
+  
+    width: 80px;
+    height: 50px;
     margin: 0 auto;
     vertical-align: middle;
     overflow: hidden;
@@ -2001,6 +2014,7 @@ footer a:hover {
     border: none;
     margin-top: 30px;
     outline: none;
+    cursor: url(../img/mouse.png), auto;
 }
 
 #submit_btn:hover {
@@ -2303,7 +2317,7 @@ ul.services-list li {
 
 .srv_pricing {
     padding: 0 0 100px;
-    background: #ffeedb;
+    background: #09bbd7ca;
     border-bottom: 15px double #fff;
 }
 
@@ -2315,11 +2329,13 @@ ul.services-list li {
 -------------------------------- */
 
 .site-hero-contact {
-    background: url("../img/site-hero-contact.jpg") no-repeat;
+    background: url("../img/img1980.jpg") no-repeat;
+    opacity: 100;
     background-size: cover;
     height: 600px;
     width: 100%;
-    position: relative
+    position: relative;
+
 }
 
 .site-hero-contact .page-title {
