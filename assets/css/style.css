@@ -199,7 +199,7 @@ section {
     top: 0;
     left: 0;
     height: 100%;
-    z-index: 2;
+    z-index: 1;
     background-image: url(../img/family.jpg);
     opacity: 0.06;
    
@@ -2327,7 +2327,10 @@ ul.services-list li {
 14.CONTACT PAGE
 
 -------------------------------- */
-
+.box-headline.rotate-2 i.in {
+    -webkit-animation: box-rotate-2-in 0.4s forwards;
+    animation: box-rotate-2-in 0.4s forwards;
+}
 .site-hero-contact {
     background: url("../img/img1980.jpg") no-repeat;
     opacity: 100;
